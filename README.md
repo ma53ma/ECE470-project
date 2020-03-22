@@ -3,6 +3,7 @@ Robot simulation project
 
 FOR PROJECT UPDATE 2:
 Download ECE470_update_2.ttt for the CoppeliaSim scene, and just press play to start the scene
+Downloaed update_2.py for the model of the UR3 arm, and info for running this script is provided below
 
 customizableTable script:
 Spawns the blocks that the UR3 arm is to pick up, the size and shape of the object can be adjusted in this script if desired
