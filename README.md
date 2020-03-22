@@ -5,6 +5,9 @@ FOR PROJECT UPDATE 2:
 Download ECE470_update_2.ttt for the CoppeliaSim scene, and just press play to start the scene
 Downloaed update_2.py for the model of the UR3 arm, and info for running this script is provided below
 
+----------------------------------------------------------------------------------------------------------------------------------------
+ECE470_update_2.ttt 
+
 customizableTable script:
 Spawns the blocks that the UR3 arm is to pick up, the size and shape of the object can be adjusted in this script if desired
 
@@ -16,6 +19,9 @@ Has the arm use forward kinematics to move to certain locations within the scene
 
 ConveyorBelt2 script:
 Turns the conveyor belt on until an object is not detected at the beginning of the conveyor belt. This is to make space for multiple blocks as they are placed in sequence upon the conveyor belt once this part of the project is reached.
+----------------------------------------------------------------------------------------------------------------------------------------
 
-update_2.py script:
+UPDATE_2.PY
+
 Uses matrix exponentials as in Lab 4 to calculate the position and orientation of the end effector. A beta variable is used to translate between mm and the units used in CoppeliaSim. This script works for when the arm has all 0's for joint angles as its initial orientation (as is at the beginning of the scene).  The joint angles of the desired end orientation can be changed in the script in the "theta" variable. The skew_sym function takes in the content of a screw axis (in the form of an omega vector and a v vector) and returns a 4x4 skew-symmetric form matrix. The Get_T() function returns the 4x4 transformation matrix for the end-effector. Just run "update_2.py" or "python update_2.py" at the correct directory to run this script.
+----------------------------------------------------------------------------------------------------------------------------------------
