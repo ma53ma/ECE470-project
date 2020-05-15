@@ -16,4 +16,7 @@ If the proximity sensor by the depositing area for objects detects an object, tu
 
 ConveyorBelt3 script:
 If the proximity sensor by the depositing area for objects detects an object, turn the conveyor belt to move the object away until it can no longer be detected. If there is no object detected, turn the conveyor belt.
+
+ConveyorBelt4 script:
+If the proximity sensor by the depositing area for objects detects an object, turn the conveyor belt to move the object away until it can no longer be detected. If there is no object detected, turn the conveyor belt.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
