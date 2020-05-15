@@ -1,12 +1,10 @@
 # ECE470-project
 Robot simulation project 
 
-FOR PROJECT UPDATE 3:
-Download ECE470_project_update_3.ttt for the CoppeliaSim scene, and just press play to start the scene
+FOR FINAL REPORT:
+Download ECE470_final_scene.ttt for the CoppeliaSim scene, and just press play to start the scene
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-ECE470_update_3.ttt 
-
 UR5 script:
 Wait until an object is available to pick up, and then have the arm follow the path passed to it from the customizableConveyor script and then return to the original pose of the arm.
 
